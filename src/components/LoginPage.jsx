@@ -1,4 +1,4 @@
-// src/components/LoginPage.jsx
+
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -11,7 +11,7 @@ const LoginPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // 🔑 Fake authentication logic (replace with API call later)
+   
     if (email === "test@learnify.com" && password === "123456") {
       localStorage.setItem("authToken", "fake-jwt-token");
       setError("");
